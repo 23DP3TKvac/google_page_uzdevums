@@ -1,1 +1,1 @@
-# google_page_uzdevums
+# Google majāslapas izveide
