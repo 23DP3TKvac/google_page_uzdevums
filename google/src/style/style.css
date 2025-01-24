@@ -1,0 +1,74 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 250px;
+}
+.logo {
+    font-size: 84px;
+    font-family: 'Product Sans', sans-serif;
+    font-weight: bold;
+    
+}    
+.logo span:nth-child(1) { color: #4285F4; }
+.logo span:nth-child(2) { color: #EA4335; }
+.logo span:nth-child(3) { color: #FBBC05; }
+.logo span:nth-child(4) { color: #4285F4; }
+.logo span:nth-child(5) { color: #34A853; }
+.logo span:nth-child(6) { color: #EA4335; }
+
+.search-box input {
+    margin-top: 30px;
+    width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 25px;
+    outline: none;
+}
+
+.buttons {
+    margin-top: 25px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor:pointer;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+   
+    font-size: 14px;
+    color: #5f6368;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.offers {
+    margin-top: 20px;
+    font-size:  13px;
+}
+
+.offers a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+.offers a:hover {
+    text-decoration: underline;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url(/src/fonts/productsans.ttf);
+}
